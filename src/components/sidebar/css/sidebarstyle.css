@@ -1,0 +1,32 @@
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+  }
+
+.navcomponent {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+  
+.newevernote {
+ background-color: rgb(0, 168, 45);
+ border-radius: 20px;
+}
+
+.newevernote-dropdown {
+padding-right: 0;}
+
+.btn-new {
+  color: black;
+  border: 0px;
+  padding: 0px;
+}
