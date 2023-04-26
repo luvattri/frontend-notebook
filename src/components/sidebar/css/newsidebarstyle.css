@@ -1,0 +1,39 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 0px;
+  z-index: 1;
+  width: 210px;
+  border-left: 2px;
+  display: flex;
+  flex-direction: row;
+  left: 10px;
+  border-radius: 10px;
+
+  }
+
+  .create-new {
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 10px;
+  }
+
+.create-new-task {
+    background-color: palevioletred;
+    border-radius: 20px;
+}
+.create-new-note {
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.dropdown-container {
+    width: 200px;
+}
